@@ -1,0 +1,16 @@
+{
+  "name": "auto-runbook-project",
+  "version": "1.0.0",
+  "description": "Local runner and workspace for Auto Runbook Emergent Agent",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npx nodemon server.js"
+  },
+  "keywords": ["auto-runbook", "emergent-agent", "vscode"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
